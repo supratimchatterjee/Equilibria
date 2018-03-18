@@ -1,0 +1,123 @@
+ 
+ .contact_title {
+    	font-size:24px;
+    	color:#2a3740;
+    	}
+    h1 strong {
+    	color:#49c2a2;
+    	}	
+    .text_style {
+    	font-size:11px;
+    	color:#2a3740;
+    	}
+    .form-desc { color:#49c2a2; padding-top: 40px; }
+    	
+    .gfield_label {
+        display: none !important;
+    }
+    body .gform_wrapper label.gfield_label + div.ginput_container { margin-top: 0 !important; }
+    .gform_body ul li#field_1_1,
+    .gform_body ul li#field_1_3 { padding-right: 7px; }
+
+    .gform_wrapper .gform_footer { padding: 0 !important; margin:0 !important;  }
+
+    .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type="submit"] { font-size: 11px; }
+
+    #gform_fields_1 li {
+        display: inline-block;
+    }
+    .gform_title {
+        display: none;
+    }
+    .page-template-template-contact .gform_wrapper{
+        max-width: 100% !important;
+    }
+    .page-template-template-contact .gform_wrapper ul li{
+        width: 47%;
+    }
+    .page-template-template-contact .gform_wrapper ul li input{
+        width:93% !important; 
+        background: #e5e7e8  !important; 
+        font-size: 11px  !important; 
+        border: none  !important; 
+        padding: 5px  !important; 
+        margin: 1px 0px 7px 0 !important ;
+        
+    }
+    .page-template-template-contact .gform_wrapper ul li#field_1_5{
+        width:95%;
+    }
+    .page-template-template-contact .gform_wrapper ul li textarea{
+        width:98%; 
+        background: #e5e7e8;
+        font-size: 11px;
+        border: none;
+        padding: 6px;
+        margin: 1px 0 12px 0;
+    }
+
+    .page-template-template-contact .gform_wrapper .gform_footer.top_label input#gform_submit_button_1{
+    float: right;
+    background: none;
+    border: 2px solid #5e686f;
+    color: #5e686f;
+    font-family: sans-serif;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    padding: 2px 12px;
+}
+
+
+/*========responsive=========*/
+@media only screen and (max-width:767px) {
+    .tm-contact{padding:30px;}
+    .page-template-template-contact .gform_wrapper ul li { width: 100%;}
+    .page-template-template-contact .gform_wrapper ul li#field_1_5 { width: 91%;}
+    .page-template-template-contact .gform_wrapper .gform_footer.top_label input#gform_submit_button_1 {margin-right: 8%;}
+    .page-template-template-contact .gform_wrapper ul li textarea{
+        width:100%;
+    } 
+
+}
+
+
+/*========responsive=========*/
+
+/*===13.02.17===*/
+.site-header { background-color: #fff; }
+h1, .uk-text-large {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+}
+
+.uk-text-large {
+    font-weight: 700;
+}
+
+.client-testimonials { font-size: 11px; }
+.site-blog.site-banner {
+    margin-bottom: 0;
+}
+
+.site-banner .uk-width-large-6-10 > img { opacity:0; }
+
+.social-icon-panel a { color:#fff !important; }
+.social-icon-panel a:hover { color:rgb(73,194,162) !important; }
+
+
+.tm-cs { position: relative; }
+.tm-cs:hover, .tm-cs:hover h5 { color:#fff; }
+
+.single .offset-caption h3 span.subtitle { font-size:15px; display: block;  }
+/*===End===*/
+
+
+
+@media only screen and (max-width:968px) and (min-width:768px) {
+    .social-icon-panel { padding-left: 30px; }
+}
+
+@media only screen and (max-width:767px) {
+	.site-banner .uk-width-large-6-10 > img { opacity:100%; }
+}
